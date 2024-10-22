@@ -20,5 +20,6 @@ int main(void)
 	}
 	else if ( n < 0 ) {
 		printf("n is negative\n");
+	}
 	return (0);
 }
