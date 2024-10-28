@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
+ * print_square - Entry
+ * @size: print
+ * Return: Always
  */
 void print_square(int size)
 {
