@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
- *
+ * print_line - Entry
+ * @n: print
+ * Return: Always
  */
 void print_line(int n)
 {
@@ -18,6 +17,6 @@ void print_line(int n)
 	{
 		for (i = 0; i < n; i++)
 		_putchar('_');
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
