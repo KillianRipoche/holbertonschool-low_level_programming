@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * _isdigit - Entry
- * @c: checker
- * Return : Always 0
+ * @c: digit checked
+ * Return: Always 0
  */
 int _isdigit(int c)
 {
