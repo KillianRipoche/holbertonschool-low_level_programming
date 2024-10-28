@@ -2,7 +2,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _isupper : Entry
+ * _isupper - Entry
  * @c: upper checked
  * Return: Always 0
  */
