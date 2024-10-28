@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ * print_numbers - Entry
  *
- *
- *
+ * Return: Always
  */
 void print_numbers(void)
 {
