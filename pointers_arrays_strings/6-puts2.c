@@ -1,9 +1,8 @@
 #include "main.h"
 #include "2-strlen.c"
 /**
- *
- *
- *
+ * puts2 - entry
+ * @str: pointeur
  */
 void puts2(char *str)
 {
