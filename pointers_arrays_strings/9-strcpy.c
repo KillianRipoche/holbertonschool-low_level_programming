@@ -2,9 +2,10 @@
 #include "main.h"
 #include "2-strlen.c"
 /**
- *
- *
- *
+ * *_strcpy - Entry
+ * @dest: copy
+ * @src: initial
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
