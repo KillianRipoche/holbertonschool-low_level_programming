@@ -3,7 +3,7 @@
 /**
  * reverse_array - Entry
  * @a: array
- * @n: number 
+ * @n: number
  */
 void reverse_array(int *a, int n)
 {
