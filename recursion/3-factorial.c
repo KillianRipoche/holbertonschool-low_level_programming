@@ -3,7 +3,7 @@
 /**
  * factorial - Entry
  * @n: nombre
- * Return: varie en fontcion des résultats
+ * Return: varie en fonction des resultats
  */
 int factorial(int n)
 {
