@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- *
- *
- *
+ * main - Entry
+ * @argc: count
+ * @argv: value
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
