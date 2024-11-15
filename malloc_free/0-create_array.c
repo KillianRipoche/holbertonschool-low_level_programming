@@ -1,28 +1,29 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
+
 /**
- * simple_print_buffer - Entry
- * @buffer: char
- * @size: taille
- * Return: Always 0
+ * create_array - create an array of char
+ * @size: unsigned int for size
+ * @c: char initialize
+ * Return: Null if size 0, else return size
  */
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char *ar;
+	char *buffer;
 
-	ar = malloc(size);
 	if (size == 0)
-		return (NULL);
-
-	if (ar == 0)
-		return (NULL);
-
-	for (i = 0; i < size; i++)
 	{
-		ar[i] = c;
+		return (NULL);
 	}
+	buffer = malloc(size);
 
-	return (ar);
+	if (buffer == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; i < size; i++)
+		buffer[i] = c;
+
+	return (buffer);
 }
