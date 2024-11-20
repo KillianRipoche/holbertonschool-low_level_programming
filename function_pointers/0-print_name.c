@@ -1,4 +1,4 @@
-#include <stdlib.h>>
+#include <stdlib.h>
 /**
  * print_name - Entry
  * @name: nom a afficher
