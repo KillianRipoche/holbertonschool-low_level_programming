@@ -4,7 +4,7 @@
  * print_name - Entry
  * @name: nom a afficher
  * @f: pointeur de fonction
- * @*: char
+ * Return: Void
  */
 void print_name(char *name, void (*f)(char *))
 {
