@@ -1,26 +1,30 @@
 #include "function_pointers.h"
-#include <stdio.h>
+
 /**
- * int_index - Entry
- * @array: tableau a parcourir
- * @size: longueur de tableau
- * @cmp: pointeur de fonction
- * Return: -1 si faux, i si bon
+ * int_index - search for an integer
+ * @array: the array to check
+ * @size: the number of elements in the array
+ * @cmp: pointer to the function to be used to compare values
+ * Return: index of 1st element if cmp isn't 0
+ * if no element matches or size inferior to 0 return -1
  */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i;
+	int i = 0;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		return (-1);
-	}
-	for (i = 0; i < size; i++)
-	{
-		if (cmp(array[i]) != 0)
+		if (array != NULL && cmp != NULL)
 		{
-			return (i);
+			while (i < size)
+			{
+				if (cmp(array[i]))
+					return (i);
+				i++;
+			}
 		}
 	}
+
 	return (-1);
 }
