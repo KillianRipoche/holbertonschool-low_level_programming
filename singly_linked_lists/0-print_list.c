@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
- * @brief
- *
+ * print_list - Entry
+ * @h: head
+ * Return: nodes
  */
 size_t print_list(const list_t *h)
 {

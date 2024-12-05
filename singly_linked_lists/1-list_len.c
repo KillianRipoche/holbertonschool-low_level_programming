@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * @brief
- *
- *
+ * list_len - Entry
+ * @h: head
+ * Return: nodes
  */
 size_t list_len(const list_t *h)
 {
@@ -10,8 +10,8 @@ size_t list_len(const list_t *h)
 
 	while (h != NULL)
 	{
-		h = h->next;
 		nodes++;
+		h = h->next;
 	}
 	return (nodes);
 }
