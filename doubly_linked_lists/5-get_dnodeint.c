@@ -1,7 +1,6 @@
 #include "lists.h"
 /**
  * get_dnodeint_at_index - Entry
- *
  * @head: tete
  * @index: index pour parcourir
  * @Return: NULL

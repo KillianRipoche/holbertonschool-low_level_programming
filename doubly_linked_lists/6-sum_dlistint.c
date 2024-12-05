@@ -1,7 +1,6 @@
 #include "lists.h"
 /**
  * sum_dlistint - Entry
- *
  * @head: tete
  * @Return: sum
  */
