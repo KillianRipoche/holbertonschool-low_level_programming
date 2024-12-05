@@ -3,7 +3,7 @@
  * add_dnodeint_end - Entry
  * @head: tete
  * @n: const int
- * @Return: new_node
+ * Return: new_node
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {

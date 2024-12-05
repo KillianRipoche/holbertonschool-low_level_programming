@@ -4,7 +4,7 @@
  * @h: tete
  * @idx: idx pour parcourir
  * @n: flemme
- * @Return: new_node
+ * Return: new_node
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
@@ -12,7 +12,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	unsigned int i = 0;
 
 	if (h == NULL)
-		return(NULL);
+		return (NULL);
 
 	new_node = malloc(sizeof(dlistint_t));
 	if (new_node == NULL)

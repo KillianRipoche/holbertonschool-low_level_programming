@@ -2,7 +2,7 @@
 /**
  * sum_dlistint - Entry
  * @head: tete
- * @Return: sum
+ * Return: sum
  */
 int sum_dlistint(dlistint_t *head)
 {

@@ -3,7 +3,7 @@
  * get_dnodeint_at_index - Entry
  * @head: tete
  * @index: index pour parcourir
- * @Return: NULL
+ * Return: NULL
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {

@@ -3,7 +3,7 @@
  * add_dnodeint - add a new node haha
  * @head: double pointer
  * @n: entier n
- * @Return: new_nodes
+ * Return: new_nodes
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
