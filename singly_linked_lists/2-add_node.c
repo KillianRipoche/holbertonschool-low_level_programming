@@ -4,7 +4,7 @@
  *
  * @head: Head of the nodes
  * @str: string
- * @return: new_node
+ * @Return: new_node
  */
 list_t *add_node(list_t **head, const char *str)
 {
