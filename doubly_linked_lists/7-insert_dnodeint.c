@@ -29,13 +29,11 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		*h = new_node;
 		return (new_node);
 	}
-
 	while (tempo && i < idx - 1)
 		{
 			tempo = tempo->next;
 			i++;
 		}
-
 	if (tempo == NULL)
 	{
 		return (NULL);
@@ -44,7 +42,6 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	new_node->prev = tempo;
 	if (tempo->next)
 		tempo->next->prev = new_node;
-
 	tempo->next = new_node;
 	return (new_node);
 }
