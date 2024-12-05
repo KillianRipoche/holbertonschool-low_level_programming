@@ -3,7 +3,7 @@
  * add_node - Entry
  * @head: Head of the nodes
  * @str: string for node
- * @Return: new node
+ * Return: new node
  */
 list_t *add_node(list_t **head, const char *str)
 {
