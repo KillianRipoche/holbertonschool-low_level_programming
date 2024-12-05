@@ -1,10 +1,9 @@
 #include "lists.h"
 /**
  * add_node - Entry
- *
  * @head: Head of the nodes
  * @str: string
- * @Return: new_node
+ * @Return: new node
  */
 list_t *add_node(list_t **head, const char *str)
 {
