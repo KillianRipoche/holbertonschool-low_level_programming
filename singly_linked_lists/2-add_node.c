@@ -2,7 +2,7 @@
 /**
  * add_node - Entry
  * @head: Head of the nodes
- * @str: string
+ * @str: string for node
  * @Return: new node
  */
 list_t *add_node(list_t **head, const char *str)
@@ -15,7 +15,6 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
-
 	new_node->str = strdup(str);
 
 	while (str[length])
@@ -25,9 +24,7 @@ list_t *add_node(list_t **head, const char *str)
 
 
 	new_node->len = length;
-
 	new_node->next = *head;
-
 	*head = new_node;
 
 	return (new_node);
