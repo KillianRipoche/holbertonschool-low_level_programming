@@ -30,7 +30,9 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	tempo = *head;
 	while (tempo->next != NULL)
+	{
 		tempo = tempo->next;
+	}
 
 	tempo->next = new_node;
 	new_node->prev = tempo;
