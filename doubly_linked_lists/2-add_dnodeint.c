@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_dnodeint -Entry
+ * add_dnodeint - Entry
  *
  * @head: double pointer
  * @n: entier n
