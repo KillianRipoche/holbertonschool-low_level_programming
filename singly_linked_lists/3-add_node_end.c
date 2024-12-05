@@ -1,15 +1,20 @@
 #include "lists.h"
-/**
 
- */
+/**
+* add_node_end - adds a new node
+* @head: head of the list
+* @str: string added
+*
+* Return: address of the new element
+*/
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node;
 	list_t *temp;
-	unsigned int len = 0;
+	unsigned int length = 0;
 
-	while (str[len])
-		len++;
+	while (str[length])
+		length++;
 
 	new_node = malloc(sizeof(list_t));
 
@@ -17,7 +22,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 
 	new_node->str = strdup(str);
-	new_node->len = len;
+	new_node->len = length;
 	new_node->next = NULL;
 
 	if (*head == NULL)
