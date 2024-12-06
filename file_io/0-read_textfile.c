@@ -3,6 +3,7 @@
  * read_textfile - Entry
  * @filename: nom du fichier
  * @letters: nombre de lettres affichées
+ * Return: nombre de char imprimés
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
