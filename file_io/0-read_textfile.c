@@ -8,7 +8,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	__ssize_t lect, print; /* lect = lecture */
-	int fd = 0; /* file director */
+	int fd = 0; /* file descriptor */
 	char *count;
 
 	if (filename == NULL)
