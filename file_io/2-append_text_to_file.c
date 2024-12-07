@@ -7,7 +7,7 @@
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int fd = 0; /* file descriptor */
+	int fd; /* file descriptor */
 	int lg = 0; /* longueur de text content */
 	int add_var;
 
@@ -29,6 +29,7 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	add_var = write(fd, text_content, lg);
 	close(fd);
+
 	if (add_var == -1)
 		return (-1);
 
